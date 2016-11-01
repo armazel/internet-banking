@@ -34,7 +34,7 @@ html{
     font-weight: 200;
     outline: none;
     padding: 20px 40px;
-    box-shadow: 0 6px gray;
+    box-shadow: 0 6px white;
     color: white;
     &:hover{
       background: white;
@@ -50,6 +50,7 @@ html{
   height: 530px;
   .container{
     padding: 20px 60px;
+    text-align: center;
     h2{
       font-family: inherit;
       font-weight: 200;
@@ -68,11 +69,12 @@ html{
       }
       &:hover{
         transform: translateY(-20px);
-        transition: all 1s;
+        transition: all 0.5s;
       }
       .plus-info{
         margin-top: 20px;
         display: inline-block;
+        vertical-align: top;
         .info-logo{
           border: 4px solid #e0e2e2;
           border-radius: 74px;
@@ -108,11 +110,11 @@ html{
   }
 }
 .plus-container:hover .info-logo{
-  border:1px solid transparent !important;
+  border-color: #fff200 !important;
   background: #fff200;
-  transition: all 1s ease-out 0.5s;
+  transition: all 0.5s;
 }
 .plus-container:hover .info-logo > i{
   opacity: 1 !important;
-  transition: opacity 1s ease-out 0.5s;
+  transition: opacity 0.5s;
 }
