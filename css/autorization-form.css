@@ -103,6 +103,13 @@ input {
   -webkit-box-shadow: none;
   box-shadow: none;
 }
+.sign-up-button:active,
+.sign-up-button:hover{
+  background: transparent;
+  color: black;
+  border: 2px solid black;
+  box-shadow: none;
+}
 :-moz-placeholder {
   color: #ccc;
   font-weight: 300;
