@@ -3,6 +3,45 @@
 html {
   font-family: Roboto, Helvetica, Arial, sans-serif;
 }
+body {
+  min-width: 320px;
+}
+@media screen and (max-width: 1330px) {
+  .about-us .container .plus-container.plus-container {
+    width: 42%;
+  }
+}
+@media screen and (max-width: 647px) {
+  .about-us .container .plus-container.plus-container {
+    width: 100%;
+    margin-left: 0;
+  }
+  .about-us .container .plus-container.plus-container:not(:first-child) {
+    margin-top: 25px;
+    margin-left: 0;
+  }
+}
+@media screen and (max-width: 580px) {
+  .main-banner .container.container {
+    padding-top: 40%;
+  }
+}
+@media screen and (max-width: 468px) {
+  .easy-using.easy-using .container h2 {
+    font-size: 41px;
+  }
+}
+@media screen and (max-width: 370px) {
+  h1.main-title.main-title {
+    font-size: 40px;
+  }
+  .about-us.about-us .container h2 {
+    font-size: 24px;
+  }
+  .sign-up.sign-up {
+    width: 215px;
+  }
+}
 .main-banner {
   position: relative;
   display: block;
@@ -53,10 +92,9 @@ html {
 }
 .about-us {
   width: 100%;
-  height: 530px;
 }
 .about-us .container {
-  padding: 20px 60px;
+  padding: 20px 60px 60px 60px;
   text-align: center;
 }
 .about-us .container h2 {
@@ -72,6 +110,7 @@ html {
 .about-us .container .plus-container {
   display: inline-block;
   position: relative;
+  width: 21%;
 }
 .about-us .container .plus-container:not(:first-child) {
   margin-left: 40px;
@@ -140,7 +179,9 @@ html {
   text-shadow: 0  0.9px black;
 }
 .footer {
+  /*
   width: 100%;
+  */
   height: 35px;
   padding: 25px;
   position: relative;
